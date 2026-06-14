@@ -561,7 +561,7 @@ html[data-theme="dark"] .seg__btn.is-active {
   font-weight: 500;
   color: var(--ink);
 }
-.gen-field input,
+.gen-field input[type="text"],
 .gen-field textarea {
   width: 100%;
   font: inherit;
@@ -574,7 +574,7 @@ html[data-theme="dark"] .seg__btn.is-active {
   padding: 8px 11px;
   resize: vertical;
 }
-.gen-field input:focus,
+.gen-field input[type="text"]:focus,
 .gen-field textarea:focus {
   outline: none;
   border-color: var(--accent);
