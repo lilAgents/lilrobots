@@ -1,0 +1,17 @@
+{
+  "name": "lilagents-robots-tool",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@11.1.3",
+  "description": "Check any site's robots.txt and llms.txt, see exactly which crawlers and AI bots are allowed or blocked, and generate clean files of your own. Free tool by lilAgents.",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^6.4.4"
+  }
+}
