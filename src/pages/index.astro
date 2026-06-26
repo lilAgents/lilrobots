@@ -1,4 +1,5 @@
 ---
+import ToolFooter from "../components/ToolFooter.astro";
 import '../styles/app.css';
 
 const title = 'lilRobots - robots.txt & llms.txt Checker';
@@ -157,9 +158,7 @@ const description =
       </div>
     </main>
 
-    <footer class="app-footer">
-      <span>Made with <span class="app-footer__heart" aria-hidden="true">&#9829;</span> by <a href="https://lilagents.com" target="_blank" rel="noopener">lilAgents</a> &middot; The first file every crawler reads.</span>
-    </footer>
+    <ToolFooter repoUrl="https://github.com/lilAgents/lilrobots" />
 
     <script>
       import { initRobots } from '../scripts/robots.js';
